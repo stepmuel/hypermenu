@@ -1,0 +1,26 @@
+{
+  "title": "Test 2",
+  "groups": [
+    {
+      "items": [
+        {"label": "self", "menu": {"request": {"url": "test2.json"}}},
+        {"label": "flop", "menu": {"request": {"url": "test.json"}}}
+      ]
+    },
+    {
+      "items": [
+        {"label": "foo"},
+        {"label": "bar"},
+        {"label": "baz"}
+      ]
+    },
+    {
+      "items": [
+        {"label": "run", "action": {"request": {"url": "empty.json"}}},
+        {"label": "replace", "action": {"replace": {"request": {"url": "test.json"}}}},
+        {"label": "delete", "destructive": true, "action": {"back": 1}},
+        {"label": "home", "destructive": false, "action": {"back": 0}}
+      ]
+    }
+  ]
+}
