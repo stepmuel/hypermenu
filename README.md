@@ -66,7 +66,7 @@ Returns infos about the request made to fetch it. Useful to debug header values 
 
 ## Specification
 
-The full HyperMenu specification can be found in [SPECIFICATION.md](https://github.com/stepmuel/hypermenu/blob/master/README.md).
+The full HyperMenu specification can be found in [SPECIFICATION.md](https://github.com/stepmuel/hypermenu/blob/master/SPECIFICATION.md).
 
 ## Participate
 
